@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-gray-100;
+}
+
+@layer components {
+    .btn {
+        @apply border border-blue-500 hover:border-transparent rounded text-black py-2 px-4 rounded-md text-sm;
+    }
+}
